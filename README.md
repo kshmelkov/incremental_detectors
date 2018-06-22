@@ -11,8 +11,8 @@ You also need a checkpoint of [pre-trained ResNet-50](https://drive.google.com/d
 
 ## Datasets
 
-All experiments were done on [PASCAL VOC 2007]*(http://host.robots.ox.ac.uk/pascal/VOC/*) and [Microsoft COCO]*(http://cocodataset.org/).
-To use COCO you also need [pycocotools]*(https://github.com/cocodataset/cocoapi) installed.
+All experiments were done on [PASCAL VOC 2007](http://host.robots.ox.ac.uk/pascal/VOC/) and [Microsoft COCO](http://cocodataset.org/).
+To use COCO you also need [pycocotools](https://github.com/cocodataset/cocoapi) installed.
 
 ## Experiments
 
