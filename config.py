@@ -9,7 +9,7 @@ parser.add_argument("--proposals", default='', choices=['mcg', 'edgeboxes', ''],
 parser.add_argument("--num_classes", required=True, type=int, help='Train on this number of classes (first N).')
 parser.add_argument("--extend", default=0, type=int, help='Extend existing network by this number of classes incrementally and train on them.')
 parser.add_argument("--num_layers", default=56, type=int, help='Number of ResNet layers')
-parser.add_argument("--action", required=True, type=str, 'Comma-separated list of actions. Implemented actions: train, eval.')
+parser.add_argument("--action", required=True, type=str, help='Comma-separated list of actions. Implemented actions: train, eval.')
 parser.add_argument("--data_format", default='NHWC', choices=['NHWC', 'NCHW'], help='Data format for conv2d. Using of NCHW gives more cudnn acceleration')
 parser.add_argument("--sigmoid", default=False, action='store_true', help='Use sigmoid instead of softmax on the last layer.')
 parser.add_argument("--print_step", default=10, type=int, help='Print training logs every N iterations')
